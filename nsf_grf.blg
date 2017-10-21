@@ -4,45 +4,45 @@ The top-level auxiliary file: nsf_grf.aux
 The style file: apjbrief.bst
 Database file #1: bibs/bibdesk.bib
 Warning--empty journal in Oguri:2010
-You've used 12 entries,
+You've used 13 entries,
             2993 wiz_defined-function locations,
-            733 strings with 8600 characters,
-and the built_in function-call counts, 8512 in all, are:
-= -- 681
-> -- 846
+            741 strings with 8880 characters,
+and the built_in function-call counts, 9169 in all, are:
+= -- 735
+> -- 907
 < -- 6
-+ -- 334
-- -- 311
-* -- 835
-:= -- 1622
-add.period$ -- 12
-call.type$ -- 12
-change.case$ -- 192
-chr.to.int$ -- 12
-cite$ -- 13
-duplicate$ -- 223
-empty$ -- 312
-format.name$ -- 355
-if$ -- 1548
++ -- 358
+- -- 333
+* -- 898
+:= -- 1747
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 206
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 242
+empty$ -- 339
+format.name$ -- 380
+if$ -- 1670
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 12
-newline$ -- 40
-num.names$ -- 48
-pop$ -- 207
+missing$ -- 13
+newline$ -- 43
+num.names$ -- 52
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 206
 quote$ -- 0
-skip$ -- 195
+skip$ -- 212
 stack$ -- 0
-substring$ -- 228
+substring$ -- 249
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 117
 warning$ -- 1
-while$ -- 45
+while$ -- 49
 width$ -- 0
-write$ -- 119
+write$ -- 129
 (There was 1 warning)

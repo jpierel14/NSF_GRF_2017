@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Goobar {et~al.}(2016)Goobar, Amanullah, Kulkarni, Nugent, Johansson,
@@ -29,6 +29,10 @@ Marri, S., \& Ferrara, A. 1998, The Astrophysical Journal, 509, 43
 
 \bibitem[{Oguri \& Marshall(2010)}]{Oguri:2010}
 Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579
+
+\bibitem[{Pierel {et~al.}(2017)Pierel, Nixon, Lellouch, Fletcher, Bjoraker,
+  Achterberg, Bézard, Hesman, Irwin, \& Flasar}]{Pierel:2017}
+Pierel, J. D.~R., {et~al.} 2017, The Astronomical Journal, 154, 178
 
 \bibitem[{{Rodney} {et~al.}(2015){Rodney}, {Patel}, {Scolnic}, {Foley},
   {Molino}, {Brammer}, {Jauzac}, {Bradac}, {Coe}, {Broadhurst}, {Diego},
