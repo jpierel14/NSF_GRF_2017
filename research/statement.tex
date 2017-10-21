@@ -1,0 +1,102 @@
+It has been over half a century since renowned astrophysicist Sjur
+Refsdal first hypothesized the use of a supernova (SN) resolved into
+multiple images as a cosmological tool. In recent years, the first
+multiply-imaged core-collapse (CC) SN Refsdal \citep{Kelly:2015a}, and
+subsequently the first Type Ia SN iPTF16geu, have been discovered
+\citep{Goobar:2016}. As the light for each of the multiple images
+follows a different path through the expanding universe and through
+the lensing potential, the SN images appear delayed by hours (for
+galaxy-scale lenses) or years (for cluster-scale lenses). For objects
+like SN Refsdal, measurement of this time delay can be used as a
+precise test of cluster lens models \citep{Treu:2015}. For a SN like
+iPTF16geu, the time delay can lead to a \textbf{direct constraint on the
+Hubble constant $H_0$}, that is completely independent of the local
+distance ladder. The next decade is expected to yield observations of
+tens to hundreds of multiply-imaged SNe \citep{Oguri:2010}, yet there
+is no public software package for analyzing multiply-imaged SNe.
+
+As the PI on an ongoing HST Archival Research Grant, \textbf{I am developing
+the first open-source software package} in Python that will enable a user to
+precisely measure lens properties and time delays for the hundreds of
+multiply imaged SNe expected in the LSST/WFIRST era. Properties of
+dark energy and dark matter are still poorly understood and
+inadequately constrained, but measurement of the lensing magnification
+and time delays can be used to test models for the dark matter
+distribution in the lensing object \citep{Rodney:2015a,Rodney:2016} or
+as a probe to test cosmological models \citep{Suyu:2014}. To that end,
+I will first use the software I am creating to make more precise time
+delay measurements for the two currently documented multiply imaged
+SNe. SN iPTF16geu is Type Ia, so by providing a more accurate time
+delay and luminosity distance measurement, I will be able to
+accomplish two critical goals. First, directly measuring the source
+magnification will provide an important milestone in breaking
+degeneracies in the lens
+model \citep{Kolatt:1998,Oguri:2003b}. Second, precise determinations
+of the time delays for a multiply imaged Type Ia SN will provide a
+constraint on $H_0$, and the methodology and software I develop will
+be \textbf{essential to future SN surveys} for tightening those
+constraints. Between SN iPTF16geu and SN Refsdal, I will be able to
+validate the software package and methodology I am developing for time
+delay measurements, and provide these tools for the next generation of
+observations with JWST, WFIRST, and LSST. A standardized, validated,
+open-source tool will need to be available to quickly and accurately
+make these measurements in the future, as gaining a sample of ~150
+time delay measurements can tighten the area of uncertainty for dark
+energy equation of state parameters $w_0$ and $w_a$ by a factor of
+4.8 \citep{Linder:2011}.
+
+Observations either by way of gravitational lensing, or by the next
+generation telescope JWST, will provide a sample of extremely high
+redshift SNe. Of interest in the early universe are pair-instability
+(PI) and Population III (Pop III) SNe. The progenitors of PISNe are
+massive stars in low metallicity environments including the early
+universe, which retain their high mass until their death as a CC
+SN. POP III stars are hypothesized to form around $z\approx30$, but
+have yet to be observed despite models predicting that a POP III star
+should be visible to current telescopes through a gravitational lens
+during its death as a CC SN \citep{marri:1998}. \textbf{Understanding these
+first stars is crucial to a wide range of cosmology, including the
+formation of primeval galaxies, initial stages of cosmological
+reionization, and the origin of Supermassive black
+holes} \citep{Whalen:2013}.Therefore, I will collect a sample of
+current high-z and gravitationally lensed SNe, and begin discerning
+the properties of these first stars. In addition to searching for, and
+studying the physics of PI and Pop III SNe, I will include theoretical
+light curve templates for both objects in the open-source software I
+am developing, so that future observations can be identified and both
+lens properties and progenitor physics studied. Not all SNe found and
+analyzed will be strongly lensed and valuable for identifying lens and
+dark energy properties or dark matter distribution. Therefore, I will
+also collect a sample of these weakly lensed SNe, and carefully
+measure their magnification in order to make small corrections in the
+Hubble diagram. This will ensure that the full sample of
+gravitationally lensed SNe are made useful, and that the accuracy of
+the current $H_0$ measurement is improved.
+
+\
+
+\noindent\underline{\textit{Research Outline}}:
+\begin{enumerate}
+\item
+Complete the python software package titled \textit{Supernova Time Delays} (SNTD).
+\item
+\textbf{Write publication} presenting SNTD capabilities and validation.
+\item
+Improve precision on time delay measurements for SN Refsdal and SN iPTF16geu using SNTD.
+\item
+\textbf{Write publication} presenting new time delay measurements, and the methodology required for these analyses and obtaining a constraint for $H_0$ from iPTF16geu.
+\item
+Use theoretical models to include PISN and POP III SN light curve templates in SNTD.
+\item
+Obtain gravitationally lensed and high-z SN sample to study the physics of PISNe and POP III SNe, as well as make Hubble diagram adjustments with weakly lensed SNe from sample.
+\item
+\textbf{Write publication} detailing magnification corrections for Hubble diagram SNe and their affect on $H_0$.
+\item
+\textbf{Write publication} detailing search for, and ideally discovery of, PISNe and POP III SNe and their physical properties.
+\end{enumerate}
+
+\noindent\underline{\textit{Broader Impacts Summary: }}
+In my personal statement, I described how my time as a PhD candidate
+at the University of South Carolina will have a strong impact on my
+community, but it will have a clear effect on the scientific community
+as well. The SNTD software package will be a crucial tool in years to come, as the next generation of telescopes drastically increases our catalogue of multiply imaged SNe. Improving our understanding of the first stars will be essential to various branches of cosmology such as the origin of supermassive black holes, and I will pave the way for future PISN and POP III SN observations by including their theoretical templates in SNTD, and search for the first POP III SN observation by forming a sample of strongly lensed SNe. Finally, by documenting SNTD and my improved measurement of the Refsdal and iPTF16geu time delays, I will provide a constraint on $H_0$ and a standardized methodology that will be used for future SN observations to tighten constraints on $H_0$ and dark energy properties.

@@ -1,0 +1,58 @@
+\begin{thebibliography}{12}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Goobar {et~al.}(2016)Goobar, Amanullah, Kulkarni, Nugent, Johansson,
+  Steidel, Law, Quimby, Blagorodnova, Brandeker, Cao, Cooray, Ferretti,
+  Fremling, Hangard, Kasliwal, Kupfer, Lunnan, Masci, Miller, Nayyeri, Neill,
+  Ofek, Papadogiannakis, Petrushevska, Ravi, Sollerman, Sullivan, Taddia,
+  Walters, Wilson, Yan, \& Yaron}]{Goobar:2016}
+Goobar, A., {et~al.} 2016, arXiv:1611.00014v1
+
+\bibitem[{{Kelly} {et~al.}(2015){Kelly}, {Rodney}, {Treu}, {Foley}, {Brammer},
+  {Schmidt}, {Zitrin}, {Sonnenfeld}, {Strolger}, {Graur}, {Filippenko}, {Jha},
+  {Riess}, {Bradac}, {Weiner}, {Scolnic}, {Malkan}, {von der Linden}, {Trenti},
+  {Hjorth}, {Gavazzi}, {Fontana}, {Merten}, {McCully}, {Jones}, {Postman},
+  {Dressler}, {Patel}, {Cenko}, {Graham}, \& {Tucker}}]{Kelly:2015a}
+{Kelly}, P.~L., {et~al.} 2015, Science, 347, 1123
+
+\bibitem[{{Kolatt} \& {Bartelmann}(1998)}]{Kolatt:1998}
+{Kolatt}, T.~S., \& {Bartelmann}, M. 1998, \mnras, 296, 763
+
+\bibitem[{{Linder}(2011)}]{Linder:2011}
+{Linder}, E.~V. 2011, \prd, 84, 123529
+
+\bibitem[{Marri \& Ferrara(1998)}]{marri:1998}
+Marri, S., \& Ferrara, A. 1998, The Astrophysical Journal, 509, 43
+
+\bibitem[{{Oguri} \& {Kawano}(2003)}]{Oguri:2003b}
+{Oguri}, M., \& {Kawano}, Y. 2003, \mnras, 338, L25
+
+\bibitem[{Oguri \& Marshall(2010)}]{Oguri:2010}
+Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579
+
+\bibitem[{{Rodney} {et~al.}(2015){Rodney}, {Patel}, {Scolnic}, {Foley},
+  {Molino}, {Brammer}, {Jauzac}, {Bradac}, {Coe}, {Broadhurst}, {Diego},
+  {Graur}, {Hjorth}, {Hoag}, {Jha}, {Johnson}, {Kelly}, {Lam}, {McCully},
+  {Medezinski}, {Meneghetti}, {Merten}, {Richard}, {Riess}, {Sharon},
+  {Strolger}, {Treu}, {Wang}, {Williams}, \& {Zitrin}}]{Rodney:2015a}
+{Rodney}, S.~A., {et~al.} 2015, ApJ, in press
+
+\bibitem[{{Rodney} {et~al.}(2016){Rodney}, {Strolger}, {Kelly}, {Brada{\v c}},
+  {Brammer}, {Filippenko}, {Foley}, {Graur}, {Hjorth}, {Jha}, {McCully},
+  {Molino}, {Riess}, {Schmidt}, {Selsing}, {Sharon}, {Treu}, {Weiner}, \&
+  {Zitrin}}]{Rodney:2016}
+---. 2016, ApJ, 820, 50
+
+\bibitem[{{Suyu} {et~al.}(2014){Suyu}, {Treu}, {Hilbert}, {Sonnenfeld},
+  {Auger}, {Blandford}, {Collett}, {Courbin}, {Fassnacht}, {Koopmans},
+  {Marshall}, {Meylan}, {Spiniello}, \& {Tewes}}]{Suyu:2014}
+{Suyu}, S.~H., {et~al.} 2014, \apjl, 788, L35
+
+\bibitem[{Treu \& Ellis(2015)}]{Treu:2015}
+Treu, T., \& Ellis, R.~S. 2015, Contemporary Physics, 56, 17
+
+\bibitem[{{Whalen} {et~al.}(2013){Whalen}, {Smidt}, {Johnson}, {Holz},
+  {Stiavelli}, \& {Fryer}}]{Whalen:2013}
+{Whalen}, D.~J., {et~al.} 2013, arXiv:1312.6330
+
+\end{thebibliography}
