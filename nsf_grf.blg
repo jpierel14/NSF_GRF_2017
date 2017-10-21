@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: nsf_grf.aux
+The style file: apjbrief.bst
+Database file #1: bibs/bibdesk.bib
+Warning--empty journal in Oguri:2010
+You've used 13 entries,
+            2993 wiz_defined-function locations,
+            741 strings with 8880 characters,
+and the built_in function-call counts, 9169 in all, are:
+= -- 735
+> -- 907
+< -- 6
++ -- 358
+- -- 333
+* -- 898
+:= -- 1747
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 206
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 242
+empty$ -- 339
+format.name$ -- 380
+if$ -- 1670
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 13
+newline$ -- 43
+num.names$ -- 52
+pop$ -- 221
+preamble$ -- 1
+purify$ -- 206
+quote$ -- 0
+skip$ -- 212
+stack$ -- 0
+substring$ -- 249
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 117
+warning$ -- 1
+while$ -- 49
+width$ -- 0
+write$ -- 129
+(There was 1 warning)
