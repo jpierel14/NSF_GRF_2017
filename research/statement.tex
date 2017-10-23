@@ -1,3 +1,6 @@
+\setlength{\belowcaptionskip}{-10pt}
+\setlength{\abovecaptionskip}{-10pt}
+
 It has been over half a century since renowned astrophysicist Sjur
 Refsdal first hypothesized the use of a supernova (SN) resolved into
 multiple images as a cosmological tool. In recent years, the first
@@ -8,20 +11,22 @@ images follows a different path through the expanding universe and
 through the lensing potential, the SN images appear delayed by hours
 (for galaxy-scale lenses) or years (for cluster-scale lenses). The
 next decade is expected to yield observations of tens to hundreds of
-multiply-imaged SNe \citep{Oguri:2010}, yet there is no public
+multiply-imaged SNe \citep{Oguri:2010a}, yet there is no public
 software package for analyzing multiply-imaged SNe.
+
 \begin{wrapfigure}{r}{.5\textwidth}
 \includegraphics[height=.3\textwidth]{FIG/refsdal_summary2}
 \includegraphics[height=.3\textwidth]{FIG/lensed3}
 \caption{
+\noindent\fontsize{10}{14}\selectfont
 (A) MACS J1149.6+2223 field, showing the positions of the three primary
 images of the SN Refsdal host galaxy. SN
 Refsdal appears as four point sources in an Einstein Cross
 configuration in the southeast spiral arm of image 1.1. (B) HST/WFC3 observation
 of iPTF16geu, revealing four point sources and (C) NIR Keck observation, with the 
-Einstein ring of the host galaxy clearly visible, adapted from \citet{Goobar:2016}. (D)
+Einstein ring of the host galaxy clearly visible, adapted from Goobar et al. (2016)\cite{Goobar:2016}. (D)
 Expected numbers of Type Ia and Core Collapse SNe for LSST $(i_{peak,lim})$ and 
-WFIRST $(H_{peak,lim})$, adapted from \citet{Oguri:2010a}.}
+WFIRST $(H_{peak,lim})$, adapted from Oguri $\&$ Marshall (2010)\cite{Oguri:2010a}.}
 \end{wrapfigure}
 
 \noindent\underline{\textit{Intellectual Merit}} :
@@ -29,21 +34,21 @@ As the PI on an ongoing HST Archival Research Grant, \textbf{I am
 developing the first open-source software package} in Python
 (\textit{Supernova Time Delays} [SNTD]) that will enable a user to
 precisely measure lens properties and time delays for the hundreds of
-multiply imaged SNe expected in the LSST/WFIRST era (Figure 1D). I
+multiply-imaged SNe expected in the LSST/WFIRST era (Figure 1D). I
 will use SNTD to make more precise time delay measurements for the two
-currently documented multiply imaged SNe. Properties of dark energy
+currently documented multiply-imaged SNe. Properties of dark energy
 and dark matter are still poorly understood and inadequately
-constrained, but accurate measurement of the lensing magnification and
+constrained, but accurate measurements of the lensing magnification and
 time delays for SN Refsdal can be used to test models for the dark
 matter distribution in the lensing
-object \citep{Rodney:2015a,Rodney:2016} or as a probe to test
-cosmological models \citep{Suyu:2014}. As SN iPTF16geu is Type Ia,
+object \cite{Rodney:2015a,Rodney:2016} or as a probe to test
+cosmological models \cite{Suyu:2014}. As SN iPTF16geu is Type Ia,
 providing more accurate time delay and luminosity distance
 measurements will accomplish two critical goals. First, directly
 measuring the source magnification will provide an important milestone
 in breaking degeneracies in the lens
-model \citep{Kolatt:1998,Oguri:2003b}. Second, precise determinations
-of the time delays for a multiply imaged Type Ia SN will provide a
+model \cite{Kolatt:1998,Oguri:2003b}. Second, precise determinations
+of the time delays for a multiply-imaged Type Ia SN will provide a
 measurement of $H_0$ that is completely independent of the local
 distance ladder, and the methodology and software I develop will
 be \textbf{essential to future SN surveys} for tightening those
@@ -56,7 +61,7 @@ pair-instability (PI) and Population III (Pop III) SNe,
 as \textbf{understanding these first stars is crucial to a wide range
 of cosmology including the formation of primeval galaxies, initial
 stages of cosmological reionization, and the origin of Supermassive
-black holes} \citep{Whalen:2013}. Therefore, I will collect a sample
+black holes} \cite{Whalen:2013}. Therefore, I will collect a sample
 of high-z and gravitationally lensed SNe, and begin discerning
 the properties of these poorly understood objects via powerful
 lensing. With the SNe identified as weakly lensed, I will produce
@@ -71,12 +76,13 @@ physics studied.
 \centering
 \includegraphics[height=.35\textwidth]{FIG/JWST_high_z}
 \caption{
+\noindent\fontsize{10}{14}\selectfont
 JWST will measure light curves for some of the earliest SN explosions
 in the universe. Colored curves depict theoretical explosions from Pop
 III SNe, and a dashed horizontal line shows the nominal detection
 limit for JWST. These simulated light curves show that these first
 stars are detectable by JWST, which makes their inclusion in SNTD
-essential to future work (Figure adopted from \citet{Whalen:2013}).}
+essential to future work (Figure adopted from Whalen et al. 2013\cite{Whalen:2013}).}
 \end{wrapfigure}
 
 \noindent\underline{\textit{Research Summary}}:
@@ -94,7 +100,7 @@ component of my research, I will complete two further publications:
 one describing magnification corrections for Hubble diagram SNe and
 their affect on $H_0$, and the other detailing the search for, and
 ideally discovery of, PISNe and POP III SNe and their physical
-properties. These four publications will be a clear measure of the
+properties. These \textbf{four publications} will be a clear measure of the
 success of this work, and the software and methodologies developed
 during the course of my research will be vital for future work
 using the next generation of space telescopes.
@@ -102,7 +108,7 @@ using the next generation of space telescopes.
 \noindent\underline{\textit{Broader Impacts Summary}}:
 The SNTD software package will be a crucial tool in years to come, as
 the next generation of telescopes drastically increases our catalogue
-of multiply imaged SNe. Improving our understanding of the first stars
+of multiply-imaged SNe. Improving our understanding of the first stars
 will be essential to various branches of cosmology such as the origin
 of supermassive black holes, and I will pave the way for future PISN
 and POP III SN observations by including their theoretical templates
@@ -113,5 +119,18 @@ delays, I will provide a measurement of $H_0$ and a standardized
 methodology that will be used for future SN observations to tighten
 constraints on $H_0$ and dark energy properties.
 
-%\noindent\fontsize{10}{12}\selectfont
-%some words
+\noindent\fontsize{10}{14}\selectfont
+[1]Kelly, P. L., et al. 2015, Science, 347, 1123 [2]Goobar, A., et
+al. 2016, arXiv:1611.00014v1 [3]Oguri, M., $\&$ Marshall, P. J. 2010,
+MNRAS, 405, 2579 [4]Rodney, S. A., et al. 2015, ApJ, 999, 99
+[5]Rodney, S. A., et al. 2016, ApJ, 820, 50 [6]Suyu, S. H., et
+al. 2014, ApJ, 788, L35 [7]Kolatt, T. S., $\&$ Bartelmann, M. 1998,
+MNRAS, 296, 763 [8]Oguri, M., $\&$ Kawano, Y. 2003, MNRAS, 338, L25
+[9]Whalen, D. J., et al. 2013, arXiv:1312.6330
+
+
+\pagebreak
+
+\noindent\fontsize{20}{14}\selectfont
+Don't forget Rodney 2015 citation is wrong
+\noindent\fontsize{10}{14}\selectfont
