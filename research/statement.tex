@@ -1,6 +1,3 @@
-\setlength{\belowcaptionskip}{-10pt}
-\setlength{\abovecaptionskip}{-10pt}
-
 It has been over half a century since renowned astrophysicist Sjur
 Refsdal first hypothesized the use of a supernova (SN) resolved into
 multiple images as a cosmological tool. In recent years, the first
@@ -15,18 +12,16 @@ multiply-imaged SNe \citep{Oguri:2010a}, yet there is no public
 software package for analyzing multiply-imaged SNe.
 
 \begin{wrapfigure}{r}{.5\textwidth}
-\includegraphics[height=.3\textwidth]{FIG/refsdal_summary2}
-\includegraphics[height=.3\textwidth]{FIG/lensed3}
+\centering
+\includegraphics[height=.4\textwidth]{FIG/wfirst_lsst}
 \caption{
 \noindent\fontsize{10}{14}\selectfont
-(A) MACS J1149.6+2223 field, showing the positions of the three primary
-images of the SN Refsdal host galaxy. SN
-Refsdal appears as four point sources in an Einstein Cross
-configuration in the southeast spiral arm of image 1.1. (B) HST/WFC3 observation
-of iPTF16geu, revealing four point sources and (C) NIR Keck observation, with the 
-Einstein ring of the host galaxy clearly visible, adapted from Goobar et al. (2016)\cite{Goobar:2016}. (D)
-Expected numbers of Type Ia and Core Collapse SNe for LSST $(i_{peak,lim})$ and 
-WFIRST $(H_{peak,lim})$, adapted from Oguri $\&$ Marshall (2010)\cite{Oguri:2010a}.}
+Expected numbers of lensed SNe Ia and Core Collapse SNe for LSST
+$(i_{peak,lim})$ and WFIRST $(H_{peak,lim})$ after one year of
+observations. With this huge volume of lensed CC and Ia SNe
+observations expected in the next decade, the open-source SNTD package
+will be widely used and essential for analyzing this large WFIRST/LSST SN sample
+(adapted from Oguri $\&$ Marshall 2010 \cite{Oguri:2010a}).}
 \end{wrapfigure}
 
 \noindent\underline{\textit{Intellectual Merit}} :
@@ -49,7 +44,7 @@ measuring the source magnification will provide an important milestone
 in breaking degeneracies in the lens
 model \cite{Kolatt:1998,Oguri:2003b}. Second, precise determinations
 of the time delays for a multiply-imaged Type Ia SN will provide a
-measurement of $H_0$ that is completely independent of the local
+measurement of the Hubble constant $H_0$ that is completely independent of the local
 distance ladder, and the methodology and software I develop will
 be \textbf{essential to future SN surveys} for tightening those
 constraints.
@@ -74,15 +69,18 @@ physics studied.
 
 \begin{wrapfigure}{r}{.5\textwidth}
 \centering
-\includegraphics[height=.35\textwidth]{FIG/JWST_high_z}
+\includegraphics[height=.3\textwidth]{FIG/pisn_rates}
+\includegraphics[height=.3\textwidth]{FIG/jwst_sim}
 \caption{
 \noindent\fontsize{10}{14}\selectfont
-JWST will measure light curves for some of the earliest SN explosions
-in the universe. Colored curves depict theoretical explosions from Pop
-III SNe, and a dashed horizontal line shows the nominal detection
-limit for JWST. These simulated light curves show that these first
-stars are detectable by JWST, which makes their inclusion in SNTD
-essential to future work (Figure adopted from Whalen et al. 2013\cite{Whalen:2013}).}
+(A) Histogram showing the dozens of expected PISN observations as a
+function of redshift for a single JWST survey realization, covering
+0.06$\%$ of the sky over the course of 5 years. (B) Colored curves
+depict simulated JWST NIRCam PISN observations in the F356W
+filter. These light curves show that the PISNe will be visible for
+thousands of days, making observations extremely likely in each field,
+which makes their inclusion in SNTD essential to future work with JWST (Figures
+adapted from Souza et al. 2013 \cite{Souza:2013}).}
 \end{wrapfigure}
 
 \noindent\underline{\textit{Research Summary}}:
@@ -106,31 +104,57 @@ during the course of my research will be vital for future work
 using the next generation of space telescopes.
 
 \noindent\underline{\textit{Broader Impacts Summary}}:
-The SNTD software package will be a crucial tool in years to come, as
-the next generation of telescopes drastically increases our catalogue
-of multiply-imaged SNe. Improving our understanding of the first stars
-will be essential to various branches of cosmology such as the origin
-of supermassive black holes, and I will pave the way for future PISN
-and POP III SN observations by including their theoretical templates
-in SNTD, and attempt to make \textbf{the first POP III SN observation}
-by forming a sample of strongly lensed SNe. Finally, by documenting
-SNTD and my improved measurement of the Refsdal and iPTF16geu time
-delays, I will provide a measurement of $H_0$ and a standardized
-methodology that will be used for future SN observations to tighten
-constraints on $H_0$ and dark energy properties.
+Due to my academic experience at a young age, I am committed to
+ensuring that no child's love of astronomy will go unfostered in my
+community. It is crucial that childen who love STEM, and specifically
+astronomy, are reinforced that this is a valid future career and that
+a graduate degree is possible for them. Growing up in rural Maine,
+graduate degrees were few and far between, and even the percentage of
+high school graduates attending a 2-4 year college was only around
+50$\%$. In my current community within Columbia, SC according to
+City-Data.com, \textbf{only $27\%$ of people graduated from high
+school, $13\%$ have a bachelor's degree, $3\%$ have a master's degree,
+and $0\%$ have a PhD.} I will use my STEM outreach experiences with
+NASA's ARSET program, as well as the techniques I learned volunteering
+in elementary school math classrooms in college and tutoring high
+school students while at Goddard, to help foster excitement for STEM
+in my community. I have already discussed my plans with the local
+after-school program leader, who was very excited to implement a
+framework to encourage astronomy and STEM learning. By taking kids to
+our local University observatory, and leading them through a series of
+exciting and educational astronomical exercises throughout the year, I
+hope to convince these students that \textbf{achieving higher degrees
+is possible and valuable}, and break the viscious cycle of supressed
+academic opportunities forming in my community.
 
 \noindent\fontsize{10}{14}\selectfont
 [1]Kelly, P. L., et al. 2015, Science, 347, 1123 [2]Goobar, A., et
 al. 2016, arXiv:1611.00014v1 [3]Oguri, M., $\&$ Marshall, P. J. 2010,
-MNRAS, 405, 2579 [4]Rodney, S. A., et al. 2015, ApJ, 999, 99
+MNRAS, 405, 2579 [4]Rodney, S. A., et al. 2015, ApJ, 811,70
 [5]Rodney, S. A., et al. 2016, ApJ, 820, 50 [6]Suyu, S. H., et
 al. 2014, ApJ, 788, L35 [7]Kolatt, T. S., $\&$ Bartelmann, M. 1998,
 MNRAS, 296, 763 [8]Oguri, M., $\&$ Kawano, Y. 2003, MNRAS, 338, L25
-[9]Whalen, D. J., et al. 2013, arXiv:1312.6330
-
-
+[9]Whalen, D. J., et al. 2013, arXiv:1312.6330 [10]de Souza, R. S., et al. 2013, MNRAS, 436, 1555
 \pagebreak
 
-\noindent\fontsize{20}{14}\selectfont
-Don't forget Rodney 2015 citation is wrong
-\noindent\fontsize{10}{14}\selectfont
+%measure of success:
+
+%SNTD is open-source and so it'll be vetted and used by the entire community
+
+%Growing sample of gravitationally lensed publically available where tools would be available (rubin & haden-''The discovery of a gravitationaly lensed supernova Ia at redshift 2.22)
+
+%change gravitationally lensed sample -> strongly lensed
+
+%Where are the strongly lensed ones coming from? HST revisiting frontier fields ``Buffalo'' -> Rodney is collaborator
+
+%Figure out JWST Timeline (when will data be collected for GTO and ERS and cycle 1), more for high-redshift case not multiply-imaged. Highly magnified z>6 sne for GTO.
+
+%Explicitly saying we have a small set of multiply imaged, tools important in the next decade
+
+%First paragraph-->make it more of a thesis sentence at the end, instead of there is no current package. maybe also jwst high redshift sne for me to analyze.
+
+%``Small chance from buffalo with hst and a much better chance with windhorst gto''. CLASH frontier, C-chains about 5. relics->about 3 more.
+
+%take figure 1 text->moving it into main text. just make it either just the third figure or something describing the outcome of software package
+
+%Figure 2-expected number of pair instability and POP III

@@ -30,8 +30,13 @@
 
 
 \input{preamble}
-\usepackage[margin=1in]{geometry}
+\usepackage{geometry}
+\geometry{margin=1in,tmargin=.7in}
+\newenvironment{MyFigure}[1][]{\begin{figure}[#1]\vspace{0.01cm}}{\vspace{1.0cm}\end{figure}}
+
 \begin{document}
+\setlength{\belowcaptionskip}{-10pt}
+\setlength{\abovecaptionskip}{5pt}
 \singlespacing
 
 %   1. SCIENTIFIC JUSTIFICATION
@@ -72,6 +77,7 @@
 %\pagebreak
 \input{research/statement}
 \bibliographystyle{unsrt}
+%\bibliographystyle{apjbrief}
 \pagebreak
 \bibliography{bibs/bibdesk}
 
