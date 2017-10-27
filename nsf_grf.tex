@@ -8,6 +8,9 @@
 \newenvironment{MyFigure}[1][]{\begin{figure}[#1]\vspace{0.01cm}}{\vspace{1.0cm}\end{figure}}
 
 \begin{document}
+\newcommand*{\nolink}[1]{%
+  {\protect\NoHyper#1\protect\endNoHyper}%
+}
 \setlength{\belowcaptionskip}{-10pt}
 \setlength{\abovecaptionskip}{2pt}
 \singlespacing
@@ -15,9 +18,8 @@
 \input{personal/broader_impacts}
 \pagebreak
 \input{research/statement}
-%\bibliographystyle{unsrt}
-%\bibliographystyle{apjbrief}
 \bibliographystyle{unsrt}
+%\bibliographystyle{apjbrief}
 \pagebreak
 \bibliography{bibs/bibdesk}
 
